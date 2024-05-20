@@ -65,6 +65,7 @@ history_1, acc_1 = train_and_evaluate_model(1)
 history_2, acc_2 = train_and_evaluate_model(2)
 history_3, acc_3 = train_and_evaluate_model(3)
 
+
 def plot_training_history(history, num_conv_layers):
     plt.plot(history.history['accuracy'], label='train accuracy')
     plt.plot(history.history['val_accuracy'], label='validation accuracy')
